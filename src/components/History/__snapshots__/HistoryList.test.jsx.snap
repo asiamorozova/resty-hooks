@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestHistory matches a snapshot 1`] = `
+<Component
+  value={
+    Object {
+      "body": "",
+      "history": Array [],
+      "method": "GET",
+      "onChange": [Function],
+      "onSubmit": [Function],
+      "response": Object {},
+      "url": "",
+    }
+  }
+>
+  <[object Object]
+    history={
+      Array [
+        Object {
+          "method": "post",
+          "url": "http://place-puppy.com/666x666",
+        },
+        Object {
+          "method": "get",
+          "url": "http://place-puppy.com/666x666",
+        },
+        Object {
+          "method": "put",
+          "url": "http://place-puppy.com/666x666",
+        },
+        Object {
+          "method": "put",
+          "url": "http://place-puppy.com/666x666",
+        },
+      ]
+    }
+  />
+</Component>
+`;

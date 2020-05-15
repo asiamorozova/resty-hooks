@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestItem matches a snapshot 1`] = `
+<div>
+  <p>
+    https://www.placecage.com/g/250/999
+  </p>
+  <p>
+    post
+  </p>
+</div>
+`;

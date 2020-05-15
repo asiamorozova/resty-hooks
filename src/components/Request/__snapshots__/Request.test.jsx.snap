@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request matches a snapshot 1`] = `
+<Component
+  value={
+    Object {
+      "body": "",
+      "history": Array [],
+      "method": "GET",
+      "onChange": [Function],
+      "onSubmit": [Function],
+      "response": Object {},
+      "url": "",
+    }
+  }
+>
+  <Request
+    body="body"
+    method="get"
+    onChange={[Function]}
+    onSubmit={[Function]}
+    url="https://www.placecage.com/c/240/420"
+  />
+</Component>
+`;
