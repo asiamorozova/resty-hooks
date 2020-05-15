@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import History from './HistoryItem';
+import { useResty } from '../../hooks/Provider';
 
-const HistoryList = ({ history }) => {
+const HistoryList = () => {
+  const { history } = useResty();
+
   const historyList = history.map((element, i) => (
     <li key={i}>
       <History{... element }/>
